@@ -8,7 +8,7 @@ $result = mysqli_query($link, $query);
 while ($row = mysqli_fetch_assoc($result)) {
     $statistics[] = $row;
 }
-print_r($statistics);
+//print_r($statistics);
 //exit()
 mysqli_close($link);
 
