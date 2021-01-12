@@ -32,8 +32,8 @@ $(document).ready(function () {
                 data[i] = response[i]["population"];
                 labels[i] = response[i]["country"];
             }
-            alert(data);
-            alert(labels);
+//            alert(data);
+//            alert(labels);
             var barChart = new Chart($("#barChart"), {
                 type: 'horizontalBar',
                 data: {
