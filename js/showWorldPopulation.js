@@ -24,7 +24,7 @@ $(document).ready(function () {
     var labels = [];
     $.ajax({
         type: "GET",
-        url: "http://localhost/P09/getStatistics.php",
+        url: "../getStatistics.php",
         cache: false,
         dataType: "JSON",
         success: function (response) {
